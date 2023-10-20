@@ -1,0 +1,53 @@
+
+/*Header*/
+
+#logoImg{
+    width: 80px;
+    position: relative;
+    display: flex;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#reference{
+    color: grey;
+    width: fit-content;
+    font-size: x-large;
+    font-weight: bold;
+    height: fit-content; 
+
+}
+
+#devisTitle{
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+}
+
+/*Body*/
+
+
+#entity{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto
+}
+
+#vendeur, #client{
+    line-height: 5px;
+}
+
+#devis{
+   text-align: center;
+}
+
+#estimate{
+    margin: 0 auto;
+}
+thead{
+    background-color: #777BB3;
+}
